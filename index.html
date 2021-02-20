@@ -8,8 +8,8 @@
 <body>
     <h1>Calculator</h1>
     <div class="container">
-        <div class="head"  name="ami" >
-            <input type="text" value="" placeholder="type input" id="res" maxlength="10">
+        <div class="head">
+            <input type="text" value="" placeholder="type input" id="display" maxlength="10">
 
         </div>
 
@@ -34,8 +34,8 @@
         <div>
             <input onclick="calculator(this.value)" type="button" class="btn" value="0">
             <input onclick="calculator(this.value)" type="button" class="btn" value=".">
-            <input   type="button" class="btn" value="DEL">
-            <input onclick="calculator(this.value)" type="button" class="btn lastbtn" value="=">
+            <input  onclick="clr()" type="button" class="btn" value="DEL">
+            <input onclick="calculate()" type="button" class="btn lastbtn" value="=">
         </div>
 
         
